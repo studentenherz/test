@@ -147,6 +147,15 @@ a {
   margin: 10px;
 }
 
+#love{
+  font-size: 120px;
+  text-align: center;
+  color: #cae8d5;
+  background-color: #3b6978;
+  padding: 1px;
+  margin: 10px;
+}
+
 /* ========== Heading Section =============== */
 
 h1{
