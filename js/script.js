@@ -19,3 +19,10 @@ function validateTextbox() {
 function goToGoogle() {
   window.location = "http://google.com";
 }
+
+function addText(){
+  var entry = document.getElementById("entry");
+  var body = document.getElementById("place");
+
+  body.innerHTML = "asd";
+}

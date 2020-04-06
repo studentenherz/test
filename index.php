@@ -1,3 +1,7 @@
+<?php
+  include_once 'includes/dbh.inc.php'
+?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -47,6 +51,11 @@
 
     </div> -->
 
+    <form id="enter_info" action="index.html" method="get" onsubmit="addText()">
+      <input type="text" id="entry" name="" value="">
+      <input type="submit" name="" value="Send">
+    </form>
+
     <div class="sideright">
       <h2>Some thing</h2>
 
@@ -69,6 +78,19 @@
       <img src="images/girl.jpg" class="imagesidebar">
     </div>
 
+    <?php
+      /*$sql = "select * from users;";
+      $result = mysqli_query($conn, $sql);
+
+      if ($result) {
+        while($row = mysqli_fetch_assoc($result)){
+          echo $row['user_usermane']."<br>";
+        }
+      }*/
+
+      echo "hahahhaha"
+    ?>
+
     <div class="main">
       <div id="exp">
       <h1>Qué es el Lorem Ipsum</h1>
@@ -81,7 +103,7 @@
     </div>
 
       <h1>Lorem Ipsum</h1>
-      <p>
+      <p id="place">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
 
