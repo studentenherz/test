@@ -73,6 +73,16 @@ body{
   font-size: 110%;
 }
 
+.secondary{
+  /* font-size: 120px; */
+  text-align: center;
+  color: #cae8d5;
+  background-color: #3b6978;
+  padding: 1px;
+  margin: 10px;
+}
+
+
 .sideright{
   background-color: #cae8d5;
   margin: 0 10px 10px 10px;
@@ -154,6 +164,42 @@ a {
   background-color: #3b6978;
   padding: 1px;
   margin: 10px;
+}
+
+#timer{
+  font-size: 60px;
+  text-align: center;
+  color: #cae8d5;
+  background-color: #3b6978;
+  padding: 1px;
+  margin: 10px;
+}
+
+#progressbar{
+  padding: 2px;
+  margin: 20px;
+  background-color: #3b6978;
+}
+
+#progressbar1{
+  display: inline-block;
+  width: 90%;
+  height: 20px;
+  color: #3b6978;
+  background-color: #cae8d5;
+  padding: 1px;
+  /* margin: 40px; */
+  align-self: center;
+}
+
+#progressbar2{
+  display: inline-block;
+  width: 10%;
+  height: 20px;
+  background-color: #b7344e;
+  padding: 1px;
+  /* margin: 40px; */
+  align-self: center;
 }
 
 /* ========== Heading Section =============== */
