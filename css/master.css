@@ -11,6 +11,7 @@ body{
   background-color: #3b6978;
   margin: 10px;
   height: 90px;
+  padding: 0 20px;
   line-height: 90px;
 }
 
@@ -78,7 +79,7 @@ body{
   text-align: center;
   color: #cae8d5;
   background-color: #3b6978;
-  padding: 1px;
+  padding: 20px;
   margin: 10px;
 }
 
@@ -200,6 +201,14 @@ a {
   padding: 1px;
   /* margin: 40px; */
   align-self: center;
+}
+
+#date{
+  font-size: 60px;
+}
+
+#time{
+  font-size: 30px;
 }
 
 /* ========== Heading Section =============== */

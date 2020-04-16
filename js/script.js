@@ -28,7 +28,7 @@
 // }
 
 function displayDate(date){
-    var datestr = date[2] + "-" + date[1] + "-" + date[0];
+    var datestr = date[2] + "/" + date[1] + "/" + date[0];
     return datestr;
 }
 
@@ -76,10 +76,9 @@ function countdown(){
   var secstart = toSec(startdate), secspected = toSec(specteddate);
   var percent = 100*(toSec(now) - secstart)/(secspected - secstart);
 
-  // document.getElementById("elapsed").innerHTML = elapsed[1] + " months      " + elapsed[2] + " days";
-  // document.getElementById("remaining").innerHTML = remaining[1] + " months      " + remaining[2] + " days";
-  
-  document.getElementById("timer").innerHTML = displayDate(now);
+
+  document.getElementById("date").innerHTML = displayDate(now);
+  document.getElementById("time").innerHTML = displayTime(now);
   document.getElementById("progressbar1").style.width = percent + "%";
   document.getElementById("progressbar1").innerHTML = elapsed[1] + " months      " + elapsed[2] + " days";
   document.getElementById("progressbar2").style.width = (90 - percent) + "%";
