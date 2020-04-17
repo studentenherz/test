@@ -16,13 +16,47 @@
         <h3> El tiempo siempre va hacia adelante</h3>
     </div>
 
-    <div class="navbar">
+    <!-- <div class="navbar">
       <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="#">Links</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Help</a></li>
       </ul>
+    </div> -->
+
+    <div class="slideshow-container">
+
+      <div class="slide fade">
+        <img src="images/slides/1.jpg" style="width: 100%">
+        <div class="caption">Esta imagen me enamoró desde que la vi, fue justo el día en que me decidí a escribirte y me alegro mucho de haberlo hecho.</div>
+      </div>
+
+      <div class="slide fade">
+        <img src="images/slides/2.jpg" style="width: 100%">
+        <div class="caption">Esta es una de las que más me gusta. Como todas las de ese día, tenías el pelo de alguna forma particular que te hace ver diferente.</div>
+      </div>
+
+      <div class="slide fade">
+        <img src="images/slides/3.jpg" style="width: 100%">
+        <div class="caption">Esta foto sé que te encanta, porque estás con Carla y todos los del aula y la estabas pasando lindo ese día.</div>
+      </div>
+
+      <div class="slide fade">
+        <img src="images/slides/next.png" style="width: 100%">
+      </div>
+
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(0)"></span>
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
     </div>
 
     <!-- <div id="info">
@@ -133,8 +167,8 @@
     </div>
     <div class = "secondary">
 
-      <p style="text-align : right; margin: 30px;"><span id="date">date</span><span id="time">time</span></p>
-      <div id="progressbar"><div id="progressbar1">uno</div><div id="progressbar2">dos</div></div>
+      <p style="text-align : right; margin: 30px;"><span id="date">16/3/2020</span><span id="time">00:00:00</span></p>
+      <div id="progressbar"><div id="progressbar1">3 months 23 days</div><div id="progressbar2">9 months 5 days</div></div>
     </div>
 
 

@@ -87,3 +87,36 @@ function countdown(){
 
 
 setInterval(countdown, 500)
+
+
+
+var slideIndex = 0;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  var slides = document.getElementsByClassName("slide");
+  slideIndex += n + slides.length;
+  showSlides(slideIndex %= slides.length);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("slide");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex].style.display = "block";
+  dots[slideIndex].className += " active";
+}
+
+setInterval(plusSlides,10000,1);
