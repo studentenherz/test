@@ -52,7 +52,7 @@ body{
 .caption {
   background-color: #cae8d5aa;
   color: #020202;
-  font-size: 15px;
+  font-size: 110%;
   padding: 8px 15px;
   position: absolute;
   bottom: 8px;
