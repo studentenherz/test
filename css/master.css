@@ -3,6 +3,7 @@
 body{
   background-color: #84a9ac;
   margin: 0;
+  margin-bottom: 80px;
   font-family: Verdana, Georgia, serif;
   font-size: 14px;
 }
@@ -187,10 +188,11 @@ body{
 
 .footer{
   background-color: #0c4456;
-  margin: 10px;
+  position: fixed;
+  bottom: 0;
   padding: 5px;
   height: 60px;
-  clear: both;
+  width: 100%;
   color: #cae8d5;
   font-size: 90%;
   text-align: center;
