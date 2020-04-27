@@ -161,6 +161,7 @@ body{
   background-color: #3b6978;
   padding: 20px;
   margin: 10px;
+  position: relative;
 }
 
 
@@ -188,7 +189,9 @@ body{
 
 .footer{
   background-color: #0c4456;
+  /* clear: both; */
   position: fixed;
+  left: 0;
   bottom: 0;
   padding: 5px;
   height: 60px;
