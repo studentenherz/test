@@ -28,7 +28,7 @@
 // }
 
 function displayDate(date){
-    var datestr = date[2] + "/" + date[1] + 1 + "/" + date[0];
+    var datestr = `${date[2]}/${date[1] + 1}/${date[0]}`;
     return datestr;
 }
 
